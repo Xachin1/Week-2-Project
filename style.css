@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:ital,wght@0,300;1,300&family=Noto+Serif+Display:ital,wght@1,200&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,400;1,500;1,700&family=Ubuntu:wght@300&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  margin-top: 26px;
+}
+section {
+  padding: 0 35px;
+}
+h1,
+h1 {
+  font-size: 48px;
+}
+p {
+  line-height: 1.5rem;
+}
+a {
+  text-decoration: none;
+}
+.blue {
+  color: rgb(108, 11, 236);
+}
+.row {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.btn {
+  color: white;
+  background-color: rgb(65, 42, 221);
+  font-size: 24px;
+  padding: 8px 35px;
+  border-radius: 50px;
+}
+/* navbar  */
+nav {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav__link {
+  text-decoration: none;
+  margin: 0 35px;
+  font-weight: 500px;
+  font-size: 18px;
+  padding-bottom: 4px;
+  color: rgb(44, 43, 43);
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo__img {
+  height: 50px;
+  width: 50px;
+  margin: 0 12px;
+}
+.logo__text {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.logo__text:hover {
+  color: rgb(8, 107, 246);
+}
+.btn-style {
+  background-color: rgb(8, 107, 246);
+  color: white;
+  padding: 15px 40px;
+  margin: 0;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* header  */
+
+.header__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  align-items: center;
+}
+.header__left {
+  width: 40%;
+  text-align: left;
+}
+.header__right {
+  width: 60%;
+}
+.main__img {
+  width: 100%;
+  max-width: 1200px;
+}
+.intro__para {
+  margin-top: 20px;
+}
+.input {
+  position: relative;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  line-height: 1.5rem;
+  border-radius: 20px;
+}
+
+.input__wrapper {
+  position: relative;
+  margin-top: 20px;
+}
+.input__field {
+  width: 100%;
+  border: 2px solid #e5e7eb;
+  border-radius: 9999px;
+  padding: 20px 16px 20px 32px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.header__btn {
+  background-color: #6415ff;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 9999px;
+  width: 160px;
+  padding: 14px 0;
+  margin: 8px 8px 8px 0;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.trusted__partner {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(101, 101, 100);
+}
+.partner__image {
+  width: 400px;
+  margin-top: 20px;
+}
+
+/* features */
+.features {
+  margin-top: 40px;
+}
+.container__features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+.feature__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.features__title {
+  margin: 14px 0;
+}
+.features__para {
+  margin: 24px 0 0 0;
+  text-align: center;
+  color: rgb(177, 177, 172);
+}
+
+.services {
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 16px;
+}
+.service--wrapper {
+  width: calc(100% / 3);
+}
+.service {
+  display: flex;
+  padding: 32px 8px;
+  margin: 0 16px;
+}
+.service__description {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+}
+.icon i {
+  padding: 16px;
+  border: 1px dotted blue;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+/* work  */
+.row .work__left {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: left;
+}
+.img__right {
+  width: 50%;
+  border: 1px dotted blue;
+}
+.work_image {
+  width: 100%;
+  padding: 20px;
+}
+
+.work__content {
+  display: flex;
+}
